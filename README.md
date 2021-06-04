@@ -252,9 +252,11 @@ struct TabbedPageView: View {
 ```
 
 **Pages**:
+
 ![](./readme-assets/NavigationStylesforMultiplatformApps17.png)
 
 **Tabs**:
+
 ![](./readme-assets/NavigationStylesforMultiplatformApps16.png)
 
 Integrate this with our sidebar app as follows:
