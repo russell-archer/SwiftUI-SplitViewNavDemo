@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Shared
+//  tvOSDemo
 //
 //  Created by Russell Archer on 01/06/2021.
 //
@@ -24,6 +24,8 @@ struct ContentView: View {
                 }
             }
         }
+//        .navigationViewStyle(StackNavigationViewStyle())         // "Single View"
+//        .navigationViewStyle(DoubleColumnNavigationViewStyle())  // "Split View"
     }
 }
 
