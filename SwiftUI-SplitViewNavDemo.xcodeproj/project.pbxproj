@@ -14,6 +14,10 @@
 		682953B12665A594004918B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6829539D2665A592004918B9 /* ContentView.swift */; };
 		682953B32665A594004918B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6829539E2665A594004918B9 /* Assets.xcassets */; };
 		682953B42665A594004918B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6829539E2665A594004918B9 /* Assets.xcassets */; };
+		68310AE727F8A7D4008391C0 /* SwiftUI_SplitViewNavDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6829539C2665A592004918B9 /* SwiftUI_SplitViewNavDemoApp.swift */; };
+		68310AE827F8A800008391C0 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6872F75B2666FDAF009E8E03 /* SidebarView.swift */; };
+		68310AE927F8A810008391C0 /* TabbedPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681F1910266A6E0700DDBDB8 /* TabbedPageView.swift */; };
+		68310AEA27F8A85D008391C0 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C60A79266842EF009CD35C /* ListView.swift */; };
 		6872F75C2666FDAF009E8E03 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6872F75B2666FDAF009E8E03 /* SidebarView.swift */; };
 		687DF3C226691F6F004F18DF /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6872F75B2666FDAF009E8E03 /* SidebarView.swift */; };
 		687DF3C326691F74004F18DF /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C60A79266842EF009CD35C /* ListView.swift */; };
@@ -21,7 +25,6 @@
 		68C60A7A266842EF009CD35C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C60A79266842EF009CD35C /* ListView.swift */; };
 		68DE710E2666557F0034B519 /* ViewLevel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DE710D2666557F0034B519 /* ViewLevel2.swift */; };
 		68DE710F26667D6B0034B519 /* ViewLevel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DE710D2666557F0034B519 /* ViewLevel2.swift */; };
-		68DE711726669BCB0034B519 /* tvOSDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DE711626669BCB0034B519 /* tvOSDemoApp.swift */; };
 		68DE711926669BCB0034B519 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DE711826669BCB0034B519 /* ContentView.swift */; };
 		68DE711B26669BCD0034B519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DE711A26669BCD0034B519 /* Assets.xcassets */; };
 		68DE711E26669BCD0034B519 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DE711D26669BCD0034B519 /* Preview Assets.xcassets */; };
@@ -118,7 +121,6 @@
 		68C60A79266842EF009CD35C /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		68DE710D2666557F0034B519 /* ViewLevel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLevel2.swift; sourceTree = "<group>"; };
 		68DE711426669BCB0034B519 /* tvOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		68DE711626669BCB0034B519 /* tvOSDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOSDemoApp.swift; sourceTree = "<group>"; };
 		68DE711826669BCB0034B519 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68DE711A26669BCD0034B519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68DE711D26669BCD0034B519 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -262,7 +264,6 @@
 		68DE711526669BCB0034B519 /* tvOSDemo */ = {
 			isa = PBXGroup;
 			children = (
-				68DE711626669BCB0034B519 /* tvOSDemoApp.swift */,
 				68DE711826669BCB0034B519 /* ContentView.swift */,
 				68DE711A26669BCD0034B519 /* Assets.xcassets */,
 				68DE711F26669BCD0034B519 /* Info.plist */,
@@ -424,7 +425,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					682953A22665A594004918B9 = {
 						CreatedOnToolsVersion = 12.5;
@@ -552,9 +553,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68310AE727F8A7D4008391C0 /* SwiftUI_SplitViewNavDemoApp.swift in Sources */,
+				68310AE927F8A810008391C0 /* TabbedPageView.swift in Sources */,
+				68310AEA27F8A85D008391C0 /* ListView.swift in Sources */,
+				68310AE827F8A800008391C0 /* SidebarView.swift in Sources */,
 				68DE712326669C3F0034B519 /* ViewLevel2.swift in Sources */,
 				68DE711926669BCB0034B519 /* ContentView.swift in Sources */,
-				68DE711726669BCB0034B519 /* tvOSDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,7 +711,7 @@
 				DEVELOPMENT_TEAM = R6BE99W3FU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -715,6 +719,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rarcher.SwiftUI-SplitViewNavDemo";
 				PRODUCT_NAME = "SwiftUI-SplitViewNavDemo";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -729,7 +736,7 @@
 				DEVELOPMENT_TEAM = R6BE99W3FU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -737,6 +744,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rarcher.SwiftUI-SplitViewNavDemo";
 				PRODUCT_NAME = "SwiftUI-SplitViewNavDemo";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -749,6 +759,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = R6BE99W3FU;
@@ -759,7 +770,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rarcher.SwiftUI-SplitViewNavDemo";
 				PRODUCT_NAME = "SwiftUI-SplitViewNavDemo";
 				SDKROOT = macosx;
@@ -773,6 +784,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = R6BE99W3FU;
@@ -783,7 +795,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rarcher.SwiftUI-SplitViewNavDemo";
 				PRODUCT_NAME = "SwiftUI-SplitViewNavDemo";
 				SDKROOT = macosx;

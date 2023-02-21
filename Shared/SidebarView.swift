@@ -24,11 +24,13 @@ struct SidebarView: View {
                 }
 
                 Section(header: Text("Personal")) {
-                    Label("Settings", systemImage: "gearshape")
-                    Label("Account", systemImage: "person.crop.circle")
+                    NavigationLink(destination: { Text("This is settings")}) { Label("Settings", systemImage: "gearshape")}
+                    NavigationLink(destination: { Text("This is account")}) { Label("Account", systemImage: "person.crop.circle")}
                 }
             }
-            .listStyle(SidebarListStyle())
+            #if !os(tvOS)
+            .listStyle(.sidebar)
+            #endif
             .navigationTitle("My Sidebar")
         }
     }

@@ -25,7 +25,7 @@ struct ContentView: View {
             }
         }
 //        .navigationViewStyle(StackNavigationViewStyle())         // "Single View"
-//        .navigationViewStyle(DoubleColumnNavigationViewStyle())  // "Split View"
+        .navigationViewStyle(DoubleColumnNavigationViewStyle())  // "Split View"
     }
 }
 
